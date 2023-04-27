@@ -47,7 +47,7 @@ body{
 }
 .sec2 h1 {
     text-align: center;
-    padding-left: 190pxpx;
+    padding-left: 190px;
     font-size: x-large;
     font-weight: bold;
 }
@@ -60,4 +60,9 @@ body{
 .btn1{
     margin-left: 10rem;
     font-size: x-large;
+}
+.img3{
+    width: 300px;
+    height: 300px;
+
 }

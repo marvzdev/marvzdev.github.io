@@ -57,12 +57,49 @@ body{
     align-content: center;
     margin-left: 10rem;
 }
-.btn1{
-    margin-left: 10rem;
+#btn{
+   
     font-size: x-large;
+}
+#order p a:hover{
+    background-color: gray;
+
 }
 .img3{
     width: 300px;
     height: 300px;
 
+}
+.d-block{
+    height: 50vh;
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.hero4{
+    padding-left: 180px;
+    position: absolute;
+    top: 11rem;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+}
+.hero5{
+    padding-left: 180px;
+    position: absolute;
+    top: 13rem;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+    
+}
+.hero6{
+    padding-left: 180px;
+    position: absolute;
+    top: 15rem;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    
 }

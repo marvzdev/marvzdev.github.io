@@ -59,7 +59,7 @@
   </div>
 <!--2nd section-->
   <section class="sec2">
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel slide carousel-fade hide">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./img/banner1.jpg" class="d-block w-100" alt="...">
@@ -68,14 +68,25 @@
           <h2 class="hero5"> J.A Sweet Cravings</h2>
           <p class="hero6">The Best Cakes in Olongapo</p><br><br><br><br>
           <p class="hero6" style="padding-top: 2rem;"><a class="btn btn-primary" href="#" id="order">Order Now</a></p>
-         
         </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item active" data-bs-ride="true">
           <img src="./img/banner2.jpg" class="d-block w-100" alt="...">
+          <div>
+            <h2 class="hero4" >Celebration Made Sweeter</h2>
+            <h2 class="hero5"> J.A Sweet Cravings</h2>
+            <p class="hero6">The Best Cakes in Olongapo</p><br><br><br><br>
+            <p class="hero6" style="padding-top: 2rem;"><a class="btn btn-primary" href="#" id="order">Order Now</a></p>
+          </div>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item active">
           <img src="./img/banner3.jpg" class="d-block w-100" alt="...">
+          <div>
+            <h2 class="hero4" >Celebration Made Sweeter</h2>
+            <h2 class="hero5"> J.A Sweet Cravings</h2>
+            <p class="hero6">The Best Cakes in Olongapo</p><br><br><br><br>
+            <p class="hero6" style="padding-top: 2rem;"><a class="btn btn-primary" href="#" id="order">Order Now</a></p>
+          </div>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -90,8 +101,8 @@
     </section>
   <section>
     <h1 class="atf">All time Favorite</h1>
-    <div class="container container-fluid d-flex justify-content-between">
-      <div class="card" style="width: 18rem;">
+    <div class="row row-cols-1 row-cols-md-4 g-4 d-flex justify-content-between">
+      <div class="card card-hover" style="width: 18rem;">
         <img src="./img/1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Chocolate Drip</h5>
@@ -99,7 +110,7 @@
           <a href="#" class="btn btn-primary">₱1,500</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="card card-hover" style="width: 18rem;">
         <img src="./img/67.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Salted Caramel</h5>
@@ -107,7 +118,7 @@
           <a href="#" class="btn btn-primary">₱1,800</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="card card-hover" style="width: 18rem;">
         <img src="./img/3.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Rainbow Cake</h5>
@@ -115,7 +126,7 @@
           <a href="#" class="btn btn-primary">₱1,900</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
+      <div class="card card-hover" style="width: 18rem;">
         <img src="./img/9.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Fruity Cake</h5>
@@ -123,58 +134,43 @@
           <a href="#" class="btn btn-primary">₱2,100</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
-        <img src="./img/5.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Caramel Delight</h5>
-          <p class="card-text">Caramel Delight is a dessert that is made with a combination of caramel, chocolate, and coconut. It is also known as Samoa Bars, which is a popular cookie.</p>
-          <a href="#" class="btn btn-primary">₱1,700</a>
-        </div>
-      </div>
     </div>
   </section>
   
   <!--3rd section-->
 <section>
-  <h1 style="padding-left: 50rem;">Cakes Below ₱1,000</h1>
-  <div class="container container-fluid d-flex justify-content-between">
-    <div class="card" style="width: 18rem;">
+  <h1 class="cb1">Cakes Below ₱1,000</h1>
+  <div class="row row-cols-1 row-cols-md-4 g-4 d-flex justify-content-between">
+    <div class="card card-hover" style="width: 18rem;">
       <img src="./img/promo1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-  
+      <div class="card-body"> 
         <a href="#" class="btn btn-primary">₱500</a>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
+    <div class="card card-hover" style="width: 18rem;">
       <img src="./img/promo2.png" class="card-img-top" alt="...">
       <div class="card-body">
      
         <a href="#" class="btn btn-primary">₱600</a>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
+    <div class="card card-hover" style="width: 18rem;">
       <img src="./img/promo3.jpg" class="card-img-top" alt="...">
       <div class="card-body">
       <a href="#" class="btn btn-primary">₱700</a>
       </div>
     </div>
-    <div class="card" style="width: 18rem;">
+    <div class="card card-hover" style="width: 18rem;">
       <img src="./img/promo4.jpg" class="card-img-top" alt="...">
       <div class="card-body">
       <a href="#" class="btn btn-primary">₱800</a>
-      </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="./img/promo5.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-      <a href="#" class="btn btn-primary">₱900</a>
       </div>
     </div>
   </div>
 </section> 
 <!--4th section-->
 <section>
-  <h1 style="padding-left: 50rem;" >Personalized Cakes</h1>
+  <h1 class="personc" >Personalized Cakes</h1>
   <div class="row row-cols-1 row-cols-md-4 g-4 d-flex">
     <div class="col">
       <div>

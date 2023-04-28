@@ -6,7 +6,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background-image: url(/marvzdev.github.io/img/background.jpg);
+    
     
 }
 .hero{
@@ -19,8 +19,9 @@ body{
     padding-left: 150px;
     position: absolute;
     top: 11rem;
-    font-size: xx-large;
+    font-size: 30px;
     font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
 }
 .hero2{
     padding-left: 150px;
@@ -28,6 +29,7 @@ body{
     top: 13rem;
     font-size: xx-large;
     font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
     
 }
 .hero3{
@@ -36,6 +38,7 @@ body{
     top: 15rem;
     font-size: medium;
     font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
     
 }
 .sec2{
@@ -107,19 +110,29 @@ body{
 }
 .atf{
     padding-left: 50rem;
-    font-size: xx-large;
+    font-size: 65px;
     font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(172, 41, 95);
     
+}
+.atft{
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
 }
 .cb1 {
     padding-left: 50rem;
-    font-size: xx-large;
-    font-weight: bold;
+    font-size: 65px;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(172, 41, 95);
 }
 .personc {
     padding-left: 50rem;
-    font-size: xx-large;
-    font-weight: bold;
+    font-size: 65px;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(172, 41, 95);
 }
 .card-hover:hover{
     transform: scale(1.2)
@@ -130,6 +143,79 @@ body{
 .row {
     padding-left: 5rem;
     padding-right: 5rem;
+}
+.au{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 100px;
+    padding-left: 15rem;
+    font-size: 70px;
+    color: rgb(172, 41, 95);
+}
+.p-au{
+    
+    padding-left: 10rem;
+    font-size: 14px;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: bolder;
+}
+.picau{
+    width: 800px;
+    padding-left: 15rem;
+    margin-top: 5rem;
+}
+.vid{
+    padding-left: 55rem;
+    font-size: 65px;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(172, 41, 95);
+}
+.vidc{
+    padding-left: 11rem;
+    margin-top: 50px;
+}
+.vidc:hover{
+    transform: scale(1.2)
+}
+.vidc{
+    transition: all .5s;
+}
+.cont{
+    margin-top: 50px;
+    padding-left: 55rem;
+    font-size: 65px;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(172, 41, 95);
+    
+}
+.conta{
+    margin-top: 50px;
+}
+.kontak{
+    width: 100px;
+    height: 100px;
+    margin-left: 10rem;
+}
+.ofni{
+    text-align: center;
+}
+.inf{
+    margin-top: 50px;
+}
+.cus{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(172, 41, 95);
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+.inf:hover{
+    transform: scale(1.2);
+}
+.inf{
+    transition: all .5;
 }
 
 /* TABLET */
@@ -359,5 +445,22 @@ body{
     .d-block{
         max-width: 100%;
         max-height: 40vh;
+    }
+}
+@media (max-width: 1440px) {
+    .atf {
+        padding-left: 37rem;
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+    .cb1 {
+        padding-left: 37rem;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    .personc {
+        padding-left: 37rem;
+        font-size: xx-large;
+        font-weight: bold;
     }
 }

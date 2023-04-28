@@ -215,8 +215,98 @@ body{
     transform: scale(1.2);
 }
 .inf{
-    transition: all .5;
+    transition: all .5s;
 }
+.mrof{
+    max-width: 650px;
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(231, 127, 127, 0.2);
+    box-shadow: 0 15px 20px rgba(0,0,0,0.6);
+}
+.del{
+    padding-left: 40rem;
+    margin-top: 50px;
+}
+h2{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(61, 57, 57);
+    padding-bottom: 8px;
+    border-bottom: 1px solid silver;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.input-box:nth-child(2n){
+    justify-content: end;
+}
+.input-box label, .time-tittle{
+    width: 95%;
+    color: whitesmoke;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.input-box input{
+    height: 40px;
+    width: 95%;
+    padding: 0 10px;
+    border: radius 5px;
+    border: 1px solid whitesmoke
+    outline none;
+}
+.input-box in:is(:focus,:valid){
+    box-shadow: 0 3px 6px rgba(0,0,0,2);
+}
+.time-category{
+    color: gainsboro
+}
+.time-category label, .time-category input{
+    cursor: pointer;
+}
+.alert a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(11, 225, 249);
+}
+.alert a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #9ef65a;
+}
+.button-container{
+    margin: 15px 0;
+}
+.button-container button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+    background: rgba(0,0,0,0.5);
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right #aa076b,#61045f);
+    cursor: pointer;
+    transition: 0.3s;
+    border-left: 50%;
+}
+.button-container button:hover{
+    background-image: linear-gradient(to right,#61045F,#aa076b);
+}
+
 
 /* TABLET */
 @media (max-width: 1296px) {
